@@ -106,6 +106,16 @@ MenuRegistry.appendMenuItem(MenuId.MenubarMainMenu, {
 });
 
 MenuRegistry.appendMenuItem(MenuId.MenubarMainMenu, {
+	submenu: MenuId.MenubarToolsMenu,
+	title: {
+		value: 'Tools',
+		original: 'Tools',
+		mnemonicTitle: localize({ key: 'mTools', comment: ['&& denotes a mnemonic'] }, "&&Tools")
+	},
+	order: 7.5
+});
+
+MenuRegistry.appendMenuItem(MenuId.MenubarMainMenu, {
 	submenu: MenuId.MenubarHelpMenu,
 	title: {
 		value: 'Help',

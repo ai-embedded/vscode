@@ -26,6 +26,7 @@ import './browser/actions/workspaceActions.js';
 import './browser/actions/workspaceCommands.js';
 import './browser/actions/quickAccessActions.js';
 import './browser/actions/widgetNavigationCommands.js';
+import './browser/actions/toolsActions.js';
 
 //#endregion
 
